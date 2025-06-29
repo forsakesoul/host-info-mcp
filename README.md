@@ -87,7 +87,7 @@ AI 助手会自动调用 MCP 工具获取真实信息并回答。
 ## 🛠️ 项目结构
 
 ```
-ai-mcp/
+host-info-mcp/
 ├── main.py              # MCP 服务器主文件
 ├── tool.py              # 系统信息获取工具
 ├── pyproject.toml       # 项目配置
