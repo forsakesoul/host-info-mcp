@@ -3,7 +3,6 @@ import tool
 
 # {{CHENGQI:
 # Action: Modified
-# Timestamp: 2025-01-27 16:30:00 +08:00
 # Reason: 优化MCP服务器配置，改进工具描述以便Cursor AI更好地理解何时调用系统信息工具
 # Principle_Applied: KISS - 保持配置简洁明了，DRY - 复用现有工具模块
 # Optimization: 改进服务器名称和工具描述，使AI助手更容易识别和调用
