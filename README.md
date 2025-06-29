@@ -38,6 +38,24 @@ python main.py
 
 快速配置：在 Cursor 的 MCP 设置中添加：
 
+**使用 uv (推荐)：**
+```json
+{
+  "mcpServers": {
+    "hostInfoMcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "${workspaceFolder}",
+        "run",
+        "main.py"
+      ]
+    }
+  }
+}
+```
+
+**使用 python：**
 ```json
 {
   "mcpServers": {
